@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+}
+
+#form1:hover {
+  /* border-radius: 5px; */
+  color: blue;
+  text-shadow: tomato;
+}
+
+button:hover {
+  color: whitesmoke;
+  text-transform: uppercase;
+  background-color: tomato;
+  height:50px;
+  width: 50px;
+  border-radius: 5px;
+}
