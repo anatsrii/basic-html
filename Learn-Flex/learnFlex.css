@@ -1,22 +1,22 @@
 .flex-container {
   display: flex;
+  height: 90vh;
+  background: grey;
   flex-flow: row wrap;
   /* flex-direction: row;
   flex-wrap: wrap; */
   /* short hand คือ flex-flow: row wrap; */
   /* ถ้าใส่ Attribute flex-wrap เวลายืดหดหน้าจอมันจะเลื่อนตาม */
 
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* justify-content: space-between; */
-  /* justify-content: center;
-  justify-content: start; */
+  /* justify-content: center; */
+  /* justify-content: start; */
   /* justify-content: end; */
 
 } 
 
-.flex-container {
-  
-}
+
 
 .flex-items-1, .flex-items-2, .flex-items-3, .flex-items-4, .flex-items-5 {
   width: 200px;
@@ -25,4 +25,34 @@
   background-color: #33CCFF;
 }
 
+/* attribute order สามารถกำหนดตำแหน่งได้(สลับตำแหน่ง)แต่ต้องใส่ทุกตัวนะ */
+/* .flex-items-1 {
+  order: 4;
+}
+.flex-items-2 {
+  order: 1;
+}
+.flex-items-3 {
+  order: 5;
+}
+.flex-items-4 {
+  order: 2;
+}
+.flex-items-5 {
+  order: 3;
+}
 
+/* flex grow ยืด flex 
+flex shrink หด flex  */
+/* .flex-items-4 {
+  flex-grow: 1;
+}
+.flex-items-3 {
+  flex-shrink: 1;
+} */ 
+
+/* flex เฉยๆเป็น shot hand ของ flex-grow, flex-shrink, flex-basis */
+
+.flex-items-4 {
+  align-self: flex-end;
+}
