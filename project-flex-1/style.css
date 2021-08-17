@@ -1,0 +1,153 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family:sofia-pro;
+  src:url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/l?fvd=n7&primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&v=3) format("woff2"),
+  url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/d?fvd=n7&primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&v=3) format("woff"),
+  url(https://use.typekit.net/af/30420e/00000000000000003b9b1a9e/27/a?fvd=n7&primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&v=3) format("opentype");
+  font-style:normal;
+  font-display:swap
+ }
+
+ 
+a {
+   text-decoration: none;
+   font-family:sofia-pro;
+   font-style: normal;
+   font-weight: normal;
+}
+
+article {
+  font-family:sofia-pro;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+ 
+/* span {
+  font-family:sofia-pro;
+  font-style: normal;
+  font-display:swap
+}
+   */
+  
+  /* header */
+
+nav ul li {
+  list-style: none;
+}
+
+.body-top h1 {
+  font-family:sofia-pro;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+
+.nav-flex-container {
+  display: flex;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.nav-background {
+  background-color: #ffffff;
+}
+
+.nav-flex-start {
+  justify-content: start;
+}
+
+.nav-flex-end {
+  justify-content: end;
+}
+
+.nav a {
+  flex-flow: row wrap;
+  position: relative;
+  margin: 15px 15px 15px 15px;
+  color: black;
+}
+
+/* button-body-top */
+
+.body-top a {
+  color: #000;
+}
+.btn-body-1 {
+  background-color: orange;
+  border: none;
+}
+
+.btn-body-1:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.btn-body-2 {
+  background-color: black;
+  border: none;
+  color: #ffffff;
+}
+
+.btn-body-2:hover {
+  background-color: white;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn-top {
+  height: 55px;
+  width: 145px;
+  font-family:sofia-pro;
+  font-style: normal;
+}
+
+
+/* body-top */
+
+.body-top {
+  display: block;
+  position: relative;
+  background-image: url("https://mllj2j8xvfl0.i.optimole.com/BwCY1hs-7FReF0zM/w:auto/h:auto/q:auto/https://demosites.io/web-agency/wp-content/uploads/sites/421/2020/07/web-design-studio-01.jpg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: cover; */
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+.body-top h1 {
+  margin: 0;
+  padding-top: 5rem;
+}
+
+.body-top article {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+
+/* .icon-top-container */
+.icon-top-container {
+  display: flex;
+  position: relative;
+  height: 375px;
+  justify-content: center;
+}
+
+.icon-top-item {
+  /* border: 1px dotted black; */
+  margin-top: 5rem;
+  /* margin-bottom: 5rem; */
+  position: relative;
+  text-align: center;
+}
+
