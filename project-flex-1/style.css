@@ -174,4 +174,49 @@ nav ul li {
   padding: 2rem;
 }
 
+/* center-body  */
 
+
+.container-body-center-row1, .container-body-center-row2 {
+  height: 570px;
+  display: flex;
+  flex-flow: column wrap;
+  border: 1px solid black;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.image-body-center {
+  width: 570px;
+}
+
+
+
+.item-body-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  
+}
+
+.text-body-center {
+  padding: 7rem 2rem;
+  font-family:sofia-pro;
+  font-style: normal;
+  box-sizing: border-box;
+}
+
+.btn-body-center1 {
+  background-color: orange;
+  border: none;
+  height: 50px;
+  width: 115px;
+  font-style: normal;
+}
+
+.btn-body-center1:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
