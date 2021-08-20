@@ -23,8 +23,10 @@ body, html {
  }
  
  h3 {
-   font-weight: 400;
+   font-family:sofia-pro;
+   font-weight: bold;
    font-style: normal;
+   font-size: 18px;
  }
 
 .main-font {
@@ -35,7 +37,7 @@ body, html {
 
 
  
-a {
+a, button{
    text-decoration: none;
    font-family:sofia-pro;
    font-style: normal;
@@ -174,49 +176,102 @@ nav ul li {
   padding: 2rem;
 }
 
-/* center-body  */
+/* white-body */
+.body-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ededed;
+}
 
-
-.container-body-center-row1, .container-body-center-row2 {
-  height: 570px;
+.white-center {
   display: flex;
   flex-flow: column wrap;
-  border: 1px solid black;
+  height: 1300px;
+  width: 1140px;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-design, .mobile-dev {
+  width: 1140px;
+  height: 570px;
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-web-design, .image-mobile-dev {
+  width: 570px;
+  height: 570px;
+  box-sizing: border-box;
   overflow: hidden;
+}
+
+.text-web-design, .text-mobile-dev {
+  width: 570px;
+  height: 570px;
+  padding: 10rem 3rem;
+  background-color: #ffffff;
   box-sizing: border-box;
 }
 
-.image-body-center {
-  width: 570px;
+.btn-body {
+
 }
 
 
+/* black-center  */
 
-.item-body-center {
+.black-center {
+  display: flex;
+  background-color: #14171c;
+  height: 730px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-black {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  align-items: center;
+}
+
+.image-black {
+  width: 570px;
+  height: 570px;
   box-sizing: border-box;
-  
+  overflow: hidden;
 }
 
-.text-body-center {
-  padding: 7rem 2rem;
-  font-family:sofia-pro;
-  font-style: normal;
+.text-black {
+  width: 570px;
+  height: 570px;
+  padding: 10rem 3rem;
+  color: #ededed;
   box-sizing: border-box;
 }
 
-.btn-body-center1 {
-  background-color: orange;
-  border: none;
-  height: 50px;
-  width: 115px;
-  font-style: normal;
+/* <!-- main feature --> */
+
+.main-feature {
+  display: flex;
+  flex-flow: column wrap;
+  height: 820px;
 }
 
-.btn-body-center1:hover {
-  background-color: black;
-  color: white;
-  cursor: pointer;
+.head-feature {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
+
+.image-feature {
+  height: 530px;
+  width: 530px;  
+  overflow: hidden;
+}
+

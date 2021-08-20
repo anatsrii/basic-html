@@ -1,0 +1,40 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+  background-color: cornflowerblue;
+  border: 1px solid black;
+  width: 900px;
+  height: 900px;
+  
+}
+
+.child {
+  display: flex;
+  background-color: cornsilk;
+  width: 350px;
+  height: 175px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.box {
+  width: 175px;
+  height: 175px;
+  border: 1px dotted black;
+  box-sizing: border-box;
+}
+
+.image {
+  overflow: hidden;
+}
