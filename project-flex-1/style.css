@@ -21,6 +21,13 @@ body, html {
   font-style:normal;
   font-display:swap
  }
+
+ h2 {
+  font-family:sofia-pro;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 36px;
+ }
  
  h3 {
    font-family:sofia-pro;
@@ -37,7 +44,7 @@ body, html {
 
 
  
-a, button{
+a, button {
    text-decoration: none;
    font-family:sofia-pro;
    font-style: normal;
@@ -267,6 +274,18 @@ nav ul li {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+/* image feature  */
+
+.main-image-feature {
+  display: flex;
+  flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 .image-feature {
